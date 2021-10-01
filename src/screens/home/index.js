@@ -88,7 +88,7 @@ const HomeComponent = () => {
                 </Button>
               </Box>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12} style={{marginTop:'20px'}}>
               <table>
                 <tr>
                   <td>Id</td>
@@ -461,7 +461,7 @@ const HomeComponent = () => {
                 </tr>
               </table>
             </Grid>
-            <Grid item xs={12}>
+            <Grid item xs={12}  style={{marginBottom:'20px'}}>
               <Box className={style.textFieldBox}>
                 <Button
                   size="large"
